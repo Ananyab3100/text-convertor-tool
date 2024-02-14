@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/text-convertor-tool/static/css/main.3ef344bd.css",
+    "main.js": "/text-convertor-tool/static/js/main.3288e4ba.js",
+    "index.html": "/text-convertor-tool/index.html",
+    "main.3ef344bd.css.map": "/text-convertor-tool/static/css/main.3ef344bd.css.map",
+    "main.3288e4ba.js.map": "/text-convertor-tool/static/js/main.3288e4ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ef344bd.css",
+    "static/js/main.3288e4ba.js"
+  ]
+}

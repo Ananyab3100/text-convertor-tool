@@ -1,0 +1,2 @@
+.container{width:80vw}.navbar{width:100vw}.btn-group{display:flex;flex-wrap:wrap;justify-content:center}.btn.btn-primary{margin:5px;width:calc(20% - 10px)}@media screen and (max-width:590px){.container{width:100vw}.btn-group{align-items:center;flex-direction:column}.btn.btn-primary{margin:5px 0;width:100%}}
+/*# sourceMappingURL=main.3ef344bd.css.map*/
