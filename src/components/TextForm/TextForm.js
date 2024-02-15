@@ -55,7 +55,7 @@ function TextForm(props) {
   };
 
   return (
-    <> 
+   <>
     <div className = 'container' style ={{color : props.mode ==='light' ? 'black' :'white'}}>
       <div className="mb-3">
         <label htmlFor="Textarea1" className="form-label">
@@ -116,14 +116,17 @@ function TextForm(props) {
 
       <div className="container my-3">
         <h4>Your Text Summary</h4>
+        <div>
         <p>
-          {text.split(" ").filter((ele) =>{return ele.length !== 0}).length} words and {text.length} characters
+          {/*{text.split(" ").filter((ele) =>{return ele.length !== 0}).length} words and {text.length} characters */}
+          {/*Using regular expression here */}
+          {text.split(/\s+/).filter((ele) =>{return ele.length !== 0}).length} words and {text.length} characters
         </p>
         <p>{0.08 * text.split(" ").filter((ele) =>{return ele.length !== 0}).length} minutes read</p>
         <h4>Preview</h4>
         <p>{text}</p>
       </div>
-
+      </div>
       </div>
     </>
   );
