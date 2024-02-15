@@ -16,6 +16,12 @@
   width: calc(20% - 10px); /* Adjust button width to desired percentage with margins in mind */
   margin: 5px;
 }
+.navbar {
+  z-index: 1000; /* or any value higher than the accordion */
+}
+.accordion {
+  z-index: 900; /* or any value lower than the navbar */
+}
 
 @media screen and (max-width: 590px) {
   .container {
